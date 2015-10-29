@@ -94,5 +94,10 @@ namespace EmguFaceDetection
             imageBoxFrameGrabber.Image = currentFrame;
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Enabled = false;
+        }
     }
 }
